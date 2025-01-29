@@ -1,0 +1,60 @@
+/* Estilos para el encabezado */
+ion-header {
+  --background: var(--ion-color-darkTeal);
+  --color: var(--ion-color-darkTeal-contrast);
+}
+
+/* Estilos para la barra de herramientas */
+ion-toolbar {
+  --background: var(--ion-color-darkTeal);
+  --color: var(--ion-color-darkTeal-contrast);
+  font-weight: bold;
+}
+
+/* Estilos para el título */
+ion-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--ion-color-darkTeal-contrast);
+}
+
+/* Estilos para los botones */
+ion-buttons ion-button {
+  --color: var(--ion-color-lightGray);
+}
+
+ion-buttons ion-button:hover {
+  --color: var(--ion-color-gold);
+}
+
+/* Estilos para los iconos de los botones */
+ion-icon {
+  font-size: 1.5rem;
+}
+
+/* Estilos para el contenido principal */
+ion-content {
+  --background: var(--ion-color-lightGray);
+}
+
+/* Estilos para la lista de chats */
+ion-list {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para cada elemento del chat */
+app-item-chat {
+  display: block;
+  background-color: var(--ion-color-peach);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease-in-out;
+}
+
+app-item-chat:hover {
+  background-color: var(--ion-color-peach-tint);
+}
